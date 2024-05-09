@@ -1,9 +1,11 @@
 body {
-    margin:0;
-    min-height: 100vh;
-    display: grid;
+    margin:0;  /*Define a margem do corpo como 0 para remover qualquer margem padrão*/
+    min-height: 100vh; /*Define a altura mínima do corpo como 100% da altura da viewport*/
+    display: grid; /*Define o tipo de exibição como grid para alinhar os elementos no centro da página */
     place-items: center;
+    /* Centraliza os itens horizontal e verticalmente na página */
     background: rgb(177, 78, 78);
+    /* Define o fundo da página como preto */
 }
 
 .gallery {
